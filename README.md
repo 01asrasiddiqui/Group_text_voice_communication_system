@@ -1,0 +1,142 @@
+﻿# Group-Text-Voice-Communication-System
+
+It is a **Python-based real-time communication system** that supports both  
+📝 **group text chatting** and 🔊 **group voice calling** using a **single centralized server**.
+
+The project is built using **socket programming, threading, and PyAudio**, and demonstrates
+core concepts of **computer networks, concurrency, and real-time data streaming**.
+
+---
+
+## ✨ Features
+
+### 📝 Group Text Chat
+- Multiple clients can send and receive text messages
+- Messages are delivered in real time
+- Runs on the same server as the voice system
+
+### 🔊 Group Voice Communication
+- Live microphone audio streaming
+- Audio broadcast to all connected clients
+- Supports multiple simultaneous users
+
+### 🛡️ Server-Side Controls
+- Accept or reject join requests
+- List connected clients
+- Kick a specific client
+- Terminate the entire session
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 3
+- Socket Programming (TCP)
+- Threading
+- PyAudio
+- Real-Time Audio Streaming
+
+---
+
+## 📁 Project Structure
+
+- server # Central server (text + voice + admin controls)
+-  unified_client (client code for text and voice both)
+-  Report (Documentation of the project)
+
+
+---
+
+## ⚙️ How to Run the Project
+
+### 1️⃣ Install Dependencies
+
+```bash
+pip install pyaudio
+⚠️ PyAudio installation may require additional system configuration depending on your OS.
+
+Run the server:
+>>>python server.py
+
+Run the client code (optional : multiple devices)
+>>>python unified_client.py
+
+1.Enter your name
+2.Enter server IP
+Wait for server approval
+
+if accepted:
+Speak through your microphone to communicate or text based on the server running
+
+```
+🎮 Commands
+🧑 Client Commands
+
+leave → Exit the voice call gracefully
+
+🖥️ Server Commands
+
+list → Display all connected clients
+
+kick → Remove a specific client by name
+
+terminate → Disconnect all clients and shut down the session
+
+🧠 Scope of the Project
+
+This project focuses on:
+
+TCP socket-based communication
+
+Multi-client server handling using threads
+
+Real-time audio data transmission
+
+Server-side client management
+
+Concurrent text and voice communication
+
+🚫 Out of Scope (Current Version)
+
+Graphical User Interface (GUI)
+
+Audio or text encryption
+
+User authentication system
+
+Persistent chat history
+
+🚀 Future Enhancements
+
+GUI-based interface
+
+Encrypted voice and text communication
+
+Mute / unmute functionality
+
+Multiple chat rooms or voice channels
+
+User authentication and role management
+
+###👩‍💻 Author
+
+## Fatima Shahid
+## Computer & Information Systems Engineering Undergraduate
+## Python | Networking | Systems Programming 
+
+## 📬 Contact & Connect
+
+- 💼 **LinkedIn:** <a href="https://www.linkedin.com/in/fatima-shahid-46723429a/" target="_blank">Fatima Shahid</a>
+- 🧠 **LeetCode:** <a href="https://leetcode.com/u/FatimaaShahid/" target="_blank">FatimaaShahid</a>
+- ✍️ **Medium:** <a href="https://medium.com/@fatimashahid781" target="_blank">@fatimashahid781</a>
+- 📧 **Email:** <a href="mailto:fatimashahid781@gmail.com">fatimashahid781@gmail.com</a>
+- 📸 **Instagram:** <a href="https://www.instagram.com/fatimas_abstract" target="_blank">@fatimas_abstract</a>
+
+---
+
+⭐ If you like this project, consider giving it a star!
+
+
+
+
+
